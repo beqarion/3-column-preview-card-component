@@ -145,6 +145,10 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+  .main {
+    padding-top: 42px;
+    padding-bottom: 0;
+  }
   .cards-container {
     grid-template-columns: repeat(3, minmax(200px, calc(920px / 3)));
   }
